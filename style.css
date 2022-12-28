@@ -135,8 +135,9 @@ color: #FFFFFF;
 .read{margin-left: 375px;font-family: 'Raleway';
     color: #FFA3A3;padding-top: 40px;}
     
-    .second-bg{margin-top: 50%;
+    .second-bg{margin-top: 56%;
         display: flex;flex-direction: row;width: 1920px;height: 980px;position: absolute;
+        
     }
 
         .second-div{display: flex;display: ;width: 1920px;
@@ -368,18 +369,17 @@ width: 60px;
 background-color: #2804f3;
 left: 1100px;}
 
-.group-pic{width: 1920px;
+.group-pic{width: 1700px;
 position: absolute;
 height: 304px;
-
 top: 3931px;
-margin-left: 170px;
+left: 140px;
 
 }
 
 .group-pic>img{width: 170px;
 height: 70px;
-margin-left: 100px;
+margin-left: 110px;
 }
 
 .bigh2{font-family: 'Montserrat';
@@ -387,10 +387,66 @@ margin-left: 100px;
     font-weight: 700;
     font-size: 34px;
     line-height: 130%;
-    
-    
     text-align: center;
-    
-    
-    
     color: #222222;}
+
+    .footer{width: 1920px;
+        height: 235px;
+position: absolute;
+top: 4200px;}
+
+.footer>img{width: 70px;
+height: 26px;
+position: absolute;
+top: 65px;
+left: 60px;}
+
+.footer>p{width: 400px;
+    height: 54px;
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 60px;
+    padding-top: 20px;
+margin: 0;
+}
+
+.footer>.new-ul>li>a{text-decoration: none;;font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;;
+color: #222222;;
+width: 46px;
+height: 20px;}
+
+    .new-ul{display: flex;list-style: none;
+        padding-left: 1225px; gap: 40px;;
+        position: absolute;
+        top: 60px;
+    }
+    
+        .last-ul{display: flex;list-style: none;
+            padding-left: 1672px; gap: 40px;;
+            position: absolute;
+            top: 60px;}
+
+    .footer>.last-ul>li>a{text-decoration: none;;font-size:16px ;font-weight:500 ;
+        color:blue;;font-family: 'Montserrat';font-style: normal;
+        line-height: 20px;align-self: center;}
+
+        #jjj{border: 1px solid #381DDB;
+            padding: 8px 16px;}
+
+            .footer>.finished>li{list-style: none;
+            }
+            .footer>.finished{display: flex;
+            left: 1650px;
+        gap: 30px;
+    top: 133px;
+position: absolute;}
+            .footer>.finished>li>a{text-decoration: none;}
+            
